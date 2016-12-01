@@ -49,7 +49,7 @@ All of the resources created in the below labs must be created within a single R
 1. Clone the lab contents locally.
 
    ```console
-   git clone git@github.com:awslabs/aws-serverless-website-workshop.git
+   git clone https://github.com/awslabs/aws-serverless-website-workshop.git
    ```
 
    This repository contains files required for all four labs and a work directory for you to copy files into as you progress through the workshop.
@@ -113,7 +113,7 @@ In this module, you'll setup an Amazon S3 bucket to host your assets and configu
   On Linux and macOS:
 
   ```console
-  cp -R lab1/ work
+  cp -R lab1/* work
   ```
 
   On Windows:
@@ -242,7 +242,7 @@ Visitors to your website who are interested in participating in your beta progra
   On Linux and macOS:
 
   ```console
-  cp -R lab2/ work
+  cp -R lab2/* work
   ```
 
   On Windows:
@@ -518,7 +518,7 @@ Your marketing team needs an administrative interface to manage aspects of the s
   On Linux and macOS:
 
   ```console
-  cp -R lab3/ work
+  cp -R lab3/* work
   ```
 
   On Windows:
@@ -748,7 +748,7 @@ To keep your visitors up to date on your progress building your product, your ma
   On Linux and macOS:
 
   ```console
-  cp -R lab4/ work
+  cp -R lab4/* work
   ```
 
   On Windows:
